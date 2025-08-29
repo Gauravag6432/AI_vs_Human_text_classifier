@@ -1,5 +1,6 @@
 # AI_vs_Human_text_classifier (BERT + FFT + Random Forest)
-This project model predicts whether the given text is ai generated or human written. note:- it works for large text samples (wrod count > 30 words at least)
+This project model predicts whether the given text is ai generated or human written. 
+note:- it works for large text samples (word count > 30 words at least for better accuracy)
 
 - BERT embeddings for semantic features
 - FFT (Fast Fourier Transform) for frequency-domain features
