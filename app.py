@@ -44,7 +44,8 @@ def predict_custom(text):
 # Streamlit UI
 # -------------------------
 st.title("AI vs Human Text Classifier")
-st.write("Paste any paragraph to check if it's AI generated or human written. note: The text sample must contain more than 30 words atleast for better prediction.")
+st.write("Paste any paragraph to check if it's AI generated or human written. 
+note: The text sample must contain more than 30 words atleast for better prediction.")
 
 user_input = st.text_area("Enter your text here:", height=200)
 
