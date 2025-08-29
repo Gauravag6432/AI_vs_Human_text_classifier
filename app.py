@@ -43,8 +43,8 @@ def predict_custom(text):
 # -------------------------
 # Streamlit UI
 # -------------------------
-st.title("🤖 AI Text Detector (BERT + FFT)")
-st.write("Paste any paragraph to check if it's AI-generated or human-written.")
+st.title("AI vs Human Text Classifier")
+st.write("Paste any paragraph to check if it's AI generated or human written.")
 
 user_input = st.text_area("Enter your text here:", height=200)
 
@@ -53,4 +53,4 @@ if st.button("Predict"):
         result = predict_custom(user_input)
         st.success(result)
     else:
-        st.warning("⚠️ Please enter some text to analyze.")
+        st.warning("Please enter some text to analyze.")
