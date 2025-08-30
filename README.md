@@ -6,7 +6,7 @@ note:- it works for large text samples (word count > 30 words at least for bette
 - FFT (Fast Fourier Transform) for frequency-domain features
 - Random Forest classifier
 
-this is deployed at [https://ai-text-classifier.streamlit.app/](https://ai-text-classifier.streamlit.app/)
+this is deployed at [https://ai-text-classifier.streamlit.app/](url)
 ## Run Locally
 ```bash
 pip install -r requirements.txt
